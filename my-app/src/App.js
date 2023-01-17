@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from './Pages/Home/Home';
+import ItemListContainer from './Pages/ItemListContainer/ItemListContainer';
 import NavBar from './components/Navbar/NavBar';
 import Detail from './Pages/Detail/Detail';
 import Error from './Pages/Error/Error';
@@ -11,7 +11,7 @@ function App () {
     <BrowserRouter>
     <NavBar />
     <Routes>
-        <Route path='/home' element={<Home />} />
+        <Route path='/itemlistcontainer' element={<ItemListContainer />} />
         <Route path='/detail' element={<Detail />} />
         <Route path='*' element={<Error />} />
     </Routes>
