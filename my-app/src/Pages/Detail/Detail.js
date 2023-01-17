@@ -1,6 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Pokemon from '../Pokemon/Pokemon';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
+
 
 function Detail() {
   return (
@@ -18,3 +20,8 @@ function Detail() {
 }
 
 export default Detail;
+export const getProductById = (id) => {return new Promise ((resolve) => {setTimeout (()=>{
+  resolve(pokemonItem.find(pokemonItem=> pokemonItem.id ===id))
+}, 500)
+})
+}
