@@ -10,10 +10,9 @@ function Pokemon ({pokemonItem}) {
         <Card.Title> <h2>{pokemonItem.name}</h2></Card.Title>
         <Card.Text><img src= {pokemonItem.frontImg}/> </Card.Text>
          
-        <Button variant="success" src='../Detail/Detail'>Comprar</Button>
+        <Button variant="success" src='../Detail/Detail'>Ver  detalles</Button>
       </Card.Body>
     </Card>
   );
 }
 export default Pokemon;
-
