@@ -8,9 +8,9 @@ function Pokemon ({pokemonItem}) {
     <Card style={{ width: '18rem' }}>
        <Card.Body>
         <Card.Title> <h2>{pokemonItem.name}</h2></Card.Title>
-        <Card.Text><img src= {pokemonItem.frontImg}/>
-          </Card.Text>
-        <Button variant="success">Comprar</Button>
+        <Card.Text><img src= {pokemonItem.frontImg}/> </Card.Text>
+         
+        <Button variant="success" src='../Detail/Detail'>Comprar</Button>
       </Card.Body>
     </Card>
   );
