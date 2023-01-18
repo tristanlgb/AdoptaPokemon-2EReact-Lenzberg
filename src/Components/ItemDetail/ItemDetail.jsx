@@ -9,9 +9,9 @@ const ItemDetail = ({product}) => {
           <div className="productoDescripcion">
         
             <img src={product.img} alt={product.name}/>
-            <h2>{product.name}</h2>
-            <h3>{product.animal}</h3>
-            <h3>{product.descripcion}</h3>
+            <h4>🌟Su nombre es🌟{product.name}</h4>
+            <h4>🌟Es un pokemon de tipo🌟{product.animal}</h4>
+            <h4>🌟Su elemento es🌟{product.descripcion}</h4>
             <ItemCount/>
     
           </div> 
