@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ItemListContainer from './Pages/ItemListContainer/ItemListContainer';
 import NavBar from './components/Navbar/NavBar';
-import Detail from './Pages/Detail/Detail';
+import ItemDetail from './Pages/ItemDetail/ItemDetail';
 import Error from './Pages/Error/Error';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ function App () {
     <NavBar />
     <Routes>
         <Route path='/itemlistcontainer' element={<ItemListContainer />} />
-        <Route path='/detail' element={<Detail />} />
+        <Route path='/detail' element={<ItemDetail />} />
         <Route path='*' element={<Error />} />
     </Routes>
     </BrowserRouter>
