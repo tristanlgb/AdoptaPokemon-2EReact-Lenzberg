@@ -19,11 +19,9 @@ const NavBar = () => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="/#">Inicio🏚️</Nav.Link>
-          <Nav.Link href="/#">Mi pokemon🐱</Nav.Link>
-          <Nav.Link href="#" disabled>
-            
-          </Nav.Link>
+          <Nav.Link href="/">Inicio🏚️</Nav.Link>
+          <Nav.Link href="item/:id">Especificaciones🐱</Nav.Link>
+          
         </Nav>
         <Form className="d-flex">
           <Form.Control
