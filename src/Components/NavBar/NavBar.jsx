@@ -20,7 +20,7 @@ const NavBar = () => {
           navbarScroll
         >
           <Nav.Link href="/">Inicio🏚️</Nav.Link>
-          <Nav.Link href="item/:id">Especificaciones🐱</Nav.Link>
+          <Nav.Link href="item/:id">Especificaciones y Tienda🐱</Nav.Link>
           
         </Nav>
         <Form className="d-flex">
